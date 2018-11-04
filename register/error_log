@@ -1,0 +1,5 @@
+[06-Jul-2018 06:40:01 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'md-in-81.webhostbox.net' (using password: YES) in /home/ehrsyxtc/public_html/pkhtml/ehrinfo/register/patient2.php on line 11
+[06-Jul-2018 06:40:45 Etc/GMT] PHP Notice:  A session had already been started - ignoring session_start() in /home/ehrsyxtc/public_html/pkhtml/ehrinfo/register/otp.php on line 72
+[06-Jul-2018 06:41:15 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'md-in-81.webhostbox.net' (using password: YES) in /home/ehrsyxtc/public_html/pkhtml/ehrinfo/register/patient2.php on line 11
+[06-Jul-2018 06:42:57 Etc/GMT] PHP Notice:  A session had already been started - ignoring session_start() in /home/ehrsyxtc/public_html/pkhtml/ehrinfo/register/otp.php on line 72
+[06-Jul-2018 06:43:39 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'md-in-81.webhostbox.net' (using password: YES) in /home/ehrsyxtc/public_html/pkhtml/ehrinfo/register/patient2.php on line 11

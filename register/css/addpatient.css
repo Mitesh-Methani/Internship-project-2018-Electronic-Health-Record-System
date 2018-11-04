@@ -1,0 +1,41 @@
+﻿body {
+    margin: 0px;
+    background-color: #DCEDC8;
+    padding-bottom: 50px;
+}
+
+.div1 {
+    background-color: #DCEDC8;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.div3 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#div2 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#submit {
+    float: left;
+    margin-left: 38%;
+}
+
+@media screen and (max-width: 600px) {
+    .div1 {
+        width: 90%;
+    }
+    .div3 {
+        width: 90%;
+    }
+}
