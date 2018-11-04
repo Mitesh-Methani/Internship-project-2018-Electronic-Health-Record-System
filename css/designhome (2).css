@@ -1,0 +1,224 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: #8e1909;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#8e1909 40%, #fff 20%, #8e1909 40%);
+    /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8e1909 40%, #fff 20%, #8e1909 40%);
+    /* For Opera 11.6 to 12.0 */
+    background: -moz-linear-gradient(#8e1909 40%, #fff 20%, #8e1909 40%);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8e1909 40%, #fff 20%, #8e1909 40%);
+    /* Standard syntax */
+    box-shadow: 0 8px 6px -6px gray;
+}
+
+#logo {
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 10%;
+    margin-top: 15px;
+    background-image: url('../images/EHR-System.png');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title {
+    float: left;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+}
+
+.content {
+    float: left;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    background-color:white;
+}
+
+.icon {
+    float: left;
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #8e1909;
+    box-shadow: 0 0 2px #8e1909;
+    cursor: pointer;
+    margin-top: 5%;
+	margin-left:5%;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+#info
+{
+	margin-top:20%;
+	height:80px;
+	width:20%;
+	margin-left:75%;
+	border-radius:5px;
+	border-width:2px;
+	border-color:#8e1909;
+	font-size:20px;
+	color:#8e1909;
+	background-color:white;
+}
+#info:hover
+{
+	box-shadow: 0 0 5px #8e1909;
+    transform: scale(1.4);
+}	
+     	
+.icon:hover {
+    box-shadow: 0 0 5px #8e1909;
+    transform: scale(1.4);
+}
+.doctor_register,
+.hospital_register
+ {
+    margin-left: 15%;
+}
+
+.logo {
+    padding-top: 50%;
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 30px;
+    background-size: 80% 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.d_registerl {
+    background-image: url();
+}
+
+.hRegisterl {
+    background-image: url();
+}
+
+.pRegisterl {
+    background-image: url();
+}
+
+.title {
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8e1909;
+    margin-bottom: 15px;
+}
+/*Patient Dashboard*/
+.header{
+	margin-top:80px;
+	margin-bottom:0px;
+}
+.header ul{
+  margin: 0;
+  padding: 10px;
+  list-style-type: none; 
+  background-color: #dddddd;
+}
+.header a.active {
+  background-color: white;
+}
+
+.header li{
+  display: inline;
+  text-align: center;
+  padding: 12px 14px;
+  font-size: 18px;
+  
+}
+.header li a{
+  color: black;
+  padding: 6px;
+  text-decoration:none;
+  border-radius: 4px;
+}
+.header li a:hover {
+  background-color: #e87696;
+  color: b
+}
+#profile
+{
+	margin-right:0px;
+	border-radius:50%;
+	height:35px;
+	width:35px;
+}
+#detail
+{
+	width:200px;
+	height:270px;
+	margin-left:80%;
+	border-width:5px;
+	border-color:#8e1909;
+	visibility:hidden;
+	background-color:#8e1909;
+	color:white;
+}	
+/*Privacy and Settings*/
+#table1
+{
+	float:rightwards;
+	padding-left:50px;
+	margin-left:20px;
+	width:75%;
+}
+#priside a
+{
+    text-decoration:none;
+    color:white;
+	
+}	
+#priside
+{
+	margin-top:0px;
+	background-color:#8e1909;
+	float:left;
+	float:top;
+	height:100%;
+	width:20%;
+}
+#main
+{
+	margin-top:31px;
+}	
+/*Health records*/
+.record {
+    float: left;
+    width: 200px;
+	height:200px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid #8e1909;
+    box-shadow: 0 0 2px #8e1909;
+    cursor: pointer;
+    margin-top: 5%;
+	margin-left:20%;
+    transition: all 0.5s;
+    text-decoration: none;
+	font-size:30px;
+	color:#8e1909;
+}
+.record:hover {
+    box-shadow: 0 0 5px #8e1909;
+    transform: scale(1.4);
+}
+
+	

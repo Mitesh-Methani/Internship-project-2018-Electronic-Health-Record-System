@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: white;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background:  #420303;
+  text-align: center;
+  border: 1px solid #420303;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #8e1909;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #8e1909;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #8e1909;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+.head{
+width: auto;
+margin:0px;
+color: white;
+background:  #420303;
+text-align: center;
+border: 1px solid #420303;
+border-bottom: none;
+border-radius: 10px 10px 0px 0px;
+padding: 20px;
+}
+.nav{
+margin:0px 0px;
+padding: 0px 0px;
+width=auto;
+height=50px;
+border: 1px solid #dddddd;
+border-radius:0px 0px 10px 10px;    
+background-color: #dddddd;
+}
+
+.nav ul{
+  margin: auto;
+  padding: 15px;
+  list-style-type: none; 
+  
+}
+.nav a.active {
+  background-color: white;
+}
+
+.nav li{
+  display: inline;
+  margin-left:0;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+.nav li a{
+  color: black;
+  padding-right: 8px;
+  text-decoration:none;
+  border-radius: 4px;
+}
+.nav li a:hover {
+  background-color: #e87696;
+  color: black;
+}
