@@ -1,5 +1,6 @@
 # EHR Electronic health records system
 Electronic helath record system a web application based on css,html,php.
+
 Localhost data
 host=localhost
 user = root
